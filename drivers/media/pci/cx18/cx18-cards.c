@@ -412,6 +412,7 @@ static const struct cx18_card cx18_card_cnxt_raptor_pal = {
 
 static const struct cx18_card_pci_info cx18_pci_toshiba_qosmio_dvbt[] = {
 	{ PCI_DEVICE_ID_CX23418, CX18_PCI_ID_TOSHIBA, 0x0110 },
+	{ PCI_DEVICE_ID_CX23418, CX18_PCI_ID_TOSHIBA, 0x0111 }, /* Toshiba Qosmio G35-AV660 */
 	{ 0, 0, 0 }
 };
 
